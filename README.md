@@ -28,10 +28,16 @@ git clone https://github.com/Etko77/product-by-design.git
 Navigate to the project directory:
 cd product-by-design
 
-Install dependencies:
+Install dependencies on the main project:
 npm install
 
+Navigate to client and install dependencies:
+cd /client && npm install 
+
+Navigate to server:
+cd .. && cd /server.js && node server.js
+
 Run the application:
-npm start
+cd .. && cd /client && npm run start
 
 Open your browser and visit http://localhost:3000 to see the app in action.
